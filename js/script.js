@@ -31,9 +31,7 @@ $(document).ready(function () {
   ]
   for (var i = 0; i < classe.length; i++) {
     var classi = classe[i];
-    for (var k in classi) {
-      console.log(classi.nome, classi.cognome);
-    }
+    console.log(classi.nome, classi.cognome);
   }
   var nome = prompt('inserisci un nome');
   var cognome = prompt('inserisci un cognome');
